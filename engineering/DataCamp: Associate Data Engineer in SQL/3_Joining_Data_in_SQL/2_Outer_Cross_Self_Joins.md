@@ -1,6 +1,13 @@
 ## Outer Joins, Cross Joins and Self Joins  
 
-**LEFT JOIN will return all records in the left table, and those records in the right table that match on the joining field provided.**  
+**LEFT JOIN will return all records in the left table, and those records in the right table that match on the joining field provided.**    
+  
+
+| Left columns  | Right columns |
+| ------------- |:-------------:|
+| left foo      | right foo     |
+| left bar      | right bar     |
+| left baz      | right baz     |  
 
    left table                                   right table
 | id | left\_val |                          | id | right\_val |
