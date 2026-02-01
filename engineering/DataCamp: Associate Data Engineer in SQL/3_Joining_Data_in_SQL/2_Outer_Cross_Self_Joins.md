@@ -3,11 +3,12 @@
 **LEFT JOIN will return all records in the left table, and those records in the right table that match on the joining field provided.**    
   
 
-| Left columns  | Right columns |
+| id            | left\_val     |
 | ------------- |:-------------:|
-| left foo      | right foo     |
-| left bar      | right bar     |
-| left baz      | right baz     |  
+| 1             | L1            |
+| 2             | L2            |
+| 3             | L3            |  
+| 4             | L4            |  
 
    left table                                   right table
 | id | left\_val |                          | id | right\_val |
